@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>redis4net.ezy</id>
+    <version>1.0.0.0</version>
+    <title>redis4net (ezy edition)</title>
+    <authors>ezy</authors>
+    <owners>redis4net</owners>
+    <projectUrl>https://github.com/tazer/redis4net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>redis4net - log4net redis appender</description>
+    <copyright>Copyright ©  2014</copyright>
+    <dependencies>
+      <dependency id="log4net" version="2.0.5" />
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+      <dependency id="StackExchange.Redis.StrongName" version="1.1.608" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\redis4net.dll" target="lib\net452\redis4net.dll" />
+  </files>
+</package>
